@@ -14,14 +14,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="apple-touch-icon" sizes="180x180" href="image/icons/apple-touch-icon-v5.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="image/icons/app-icon-192-v5.png">
-  <link rel="manifest" href="manifest.webmanifest?v=5">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="image/icons/app-icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Chương Phi, trang chủ">
-      <span class="brand-logo"><img src="image/logo-chuong-phi-kem-chu-be-vietnam-pro-v5.svg" alt="Chương Phi — Vật tư nông nghiệp" width="1435" height="303" fetchpriority="high"></span>
+      <span class="brand-logo"><img src="image/logo-chuong-phi-kem-chu-be-vietnam-pro-v4.svg" alt="Chương Phi — Vật tư nông nghiệp" width="1435" height="303" fetchpriority="high"></span>
     </a>
     <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false"><span></span><span></span></button>
     <nav class="main-nav" aria-label="Điều hướng chính">
@@ -30,7 +30,28 @@
         <div class="product-trigger"><a class="nav-link" href="san-pham.html">Sản phẩm</a><button class="product-menu-toggle" type="button" aria-label="Mở danh mục sản phẩm" aria-expanded="false" aria-controls="product-dropdown"><span class="chevron" aria-hidden="true">⌄</span></button></div>
         <div class="product-dropdown" id="product-dropdown" inert>
           <a class="dropdown-heading" href="san-pham.html#vat-tu">Vật tư nông nghiệp <span aria-hidden="true"><svg class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6M21 3l-9 9"/><path d="M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></span></a>
-          <div class="dropdown-groups"><div class="dropdown-group"><a class="dropdown-group-title" href="san-pham.html#thuoc-benh">Thuốc Bệnh</a><ul><li><a href="san-pham.html#thuoc-benh-vinh-phat-nong">VINH PHÁT NÔNG</a></li><li><a href="san-pham.html#thuoc-benh-tan-thanh">TÂN THÀNH</a></li><li><a href="san-pham.html#thuoc-benh-thon-trang">THÔN TRANG</a></li><li><a href="san-pham.html#thuoc-benh-thd">THD</a></li><li><a href="san-pham.html#thuoc-benh-viet-trung">VIỆT TRUNG</a></li></ul></div><div class="dropdown-group"><a class="dropdown-group-title" href="san-pham.html#thuoc-duong">Thuốc Dưỡng</a><ul><li><a href="san-pham.html#thuoc-duong-vinh-phat-nong">VINH PHÁT NÔNG</a></li><li><a href="san-pham.html#thuoc-duong-tan-thanh">TÂN THÀNH</a></li><li><a href="san-pham.html#thuoc-duong-thon-trang">THÔN TRANG</a></li><li><a href="san-pham.html#thuoc-duong-thd">THD</a></li><li><a href="san-pham.html#thuoc-duong-viet-trung">VIỆT TRUNG</a></li></ul></div></div>
+          <div class="dropdown-groups dropdown-agriculture">
+            <div class="dropdown-group">
+              <a class="dropdown-group-title" href="san-pham.html#nong-duoc">Nông Dược</a>
+              <ul>
+                <li>
+                  <a href="san-pham.html#nong-duoc-vinh-phat-nong">VINH PHÁT NÔNG</a>
+                  <ul class="dropdown-subgroups">
+                    <li><a href="san-pham.html#nong-duoc-vinh-phat-nong-thuoc-benh">Thuốc Bệnh</a></li>
+                    <li><a href="san-pham.html#nong-duoc-vinh-phat-nong-thuoc-duong">Thuốc Dưỡng</a></li>
+                  </ul>
+                </li>
+                <li><a href="san-pham.html#nong-duoc-tan-thanh">TÂN THÀNH</a></li>
+                <li><a href="san-pham.html#nong-duoc-thon-trang">THÔN TRANG</a></li>
+                <li><a href="san-pham.html#nong-duoc-thd">THD</a></li>
+                <li><a href="san-pham.html#nong-duoc-viet-trung">VIỆT TRUNG</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-group">
+              <a class="dropdown-group-title" href="san-pham.html#dinh-duong">Dinh Dưỡng</a>
+              <ul><li><a href="san-pham.html#phan-bon">Phân bón</a></li></ul>
+            </div>
+          </div>
           <div class="dropdown-food-section">
             <a class="dropdown-food" href="san-pham.html#thuc-pham">Thực phẩm <span aria-hidden="true"><svg class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6M21 3l-9 9"/><path d="M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></span></a>
             <div class="dropdown-nest">
